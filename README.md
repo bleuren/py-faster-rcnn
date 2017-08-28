@@ -84,13 +84,21 @@ If you find Faster R-CNN useful in your research, please consider citing:
    -DCUDNN_ROOT=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v8.0 ^
    ```
     
-2. Build py-faster-rcnn
+2. Build py-faster-
+   ```
    SET VS90COMNTOOLS=%VS140COMNTOOLS%
-   Add cl.exe to env path: C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin
+   ```
+   Add cl.exe to env path: 
+   ```
+   C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin
+   ```
+   Start setup and install python libs.
+   ```
    cd $FRCN_ROOT/lib
    python setup.py install
    python setup_cuda.py install
    pip install -r requirements.txt
+   ```
 3. Run Demo
    SET PYTHONPATH=$FRCN_ROOT/caffe-fast-rcnn/python
 
