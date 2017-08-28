@@ -1,3 +1,5 @@
+### Fix Bugs
+[2017/8/29] param_str, cfg_key error
 ### Disclaimer
 
 The official Faster R-CNN code (written in MATLAB) is available [here](https://github.com/ShaoqingRen/faster_rcnn).
